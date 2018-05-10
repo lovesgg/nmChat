@@ -6,6 +6,10 @@ time:2018-05-10
 邮箱:993285153@qq.com
 """
 
+
+
+
+
 （一）使用说明
     （1）请确保安装好php7 Mysql Swoole Redis (作者在Ubuntu中开发)
     （2）将解压出来的文件中的qiaoqiaohua.sql导入Mysql中
@@ -15,6 +19,11 @@ time:2018-05-10
     （6）通过浏览器打开多个index.php页面进行测试，表示有多个用户在线。这样才能进行相互通信。
     （7）注意:index.php代码中的js代码 var wsServer = 'ws://127.0.0.1:4567'; 4567是端口号。server.php中的$ws = new             swoole_websocket_server("0.0.0.0",4567); 4567依然是端口号。可见这两个端口需要保持一致。
     
+    
+    
+    
+    
+    
 （二）各文件所代表的意思
     （1）get_comment.php是获取评论内容
     （2）getChatMsg.php是插入聊天消息到Mysql
@@ -24,6 +33,13 @@ time:2018-05-10
     （6）server.php 服务端代码（核心代码）
     （7）set_comment.php 评论
     （8）sql.php数据库配置文件
+
+
+
+
+
+
+
 
 （三）如果遇到问题，可微信或者邮箱联系，本人热心回答各种有关问题。祝各位生活愉快。
 
