@@ -1,8 +1,8 @@
 # nmChat  v2
 """
-author:Chris Su
+author:克里斯苏
 time:2018-05-10
-微信:sggggs1017
+微信:jdk010
 邮箱:993285153@qq.com
 """
 
